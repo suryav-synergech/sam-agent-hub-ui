@@ -5,7 +5,7 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
   selector: 'app-sidebar',
   imports: [RouterLink, RouterLinkActive],
   template: `
-    <div class="brand"><span class="logo">S</span> SAM Agent Hub</div>
+    <div class="brand"><span class="logo">S</span>  Agent Hub</div>
     <nav>
       @for (item of items; track item.path) {
         <a [routerLink]="item.path" routerLinkActive="active">{{ item.label }}</a>
